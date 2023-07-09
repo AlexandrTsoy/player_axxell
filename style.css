@@ -1,0 +1,123 @@
+    .player {
+      text-align: center;
+      margin-top: 50px;
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+    }
+
+    .album-art {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      background-size: cover;
+    }
+
+    .song-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .artist-name {
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    .controls {
+      margin-bottom: 20px;
+    }
+
+    .progress {
+      width: 300px;
+      height: 10px;
+      background-color: #ccc;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    .progress-bar {
+      width: 0;
+      height: 100%;
+      background-color: #333;
+    }
+
+
+.previous {
+    background-image: url("./back.jpg");
+    box-sizing: border-box;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.playStop {
+    background-image: url("./play.jpg");
+    box-sizing: border-box;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.next {
+    background-image: url("./next.jpg");
+    box-sizing: border-box;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.mute {
+    background-image: url("./mute.jpg");
+    box-sizing: border-box;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 55px;
+}
+
+
+
+.shuffle {
+    background-image: url("./shuffle.jpg");
+    box-sizing: border-box;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    padding-right: 45px;
+    margin-right: 30px;
+}
+.loop {
+    background-image: url("./loop.jpg");
+    box-sizing: border-box;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+
+.playlistUl {
+    list-style-type: none;
+    padding-right: 30px;
+
+}
+
+
+
+.sound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.volume-slider {
+  margin-right: 30px;
+}
+
+.btn-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
